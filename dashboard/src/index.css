@@ -93,8 +93,46 @@ ul {
   padding: 0rem;
 }
 
+.App {
+  display: flex;
+  gap: 3rem;
+}
+
 .left-side {
   background-color: #f9f9f94f;
   border-radius: 1rem;
   padding: 1rem 3rem 1rem 3rem;
+}
+
+.cards-container {
+  display: flex;
+  gap: 0.5rem;
+}
+.card {
+  background-color: #f9f9f94f;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.objects,
+.attribute,
+th {
+  font-size: 1.5rem;
+}
+
+.list-container {
+  background-color: #f9f9f94f;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
